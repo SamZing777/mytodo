@@ -1,0 +1,36 @@
+#to-do input{
+    background-color: azure;
+    border: 0;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#to-do input::placeholder{
+    font-size: 20px;
+    color: rgb(10, 50, 150);
+}
+
+#to-do input:focus{
+    outline: none;
+    border-radius: 25px;
+}
+
+#to-do button{
+    background-color: azure;
+    font-size: 20px;
+    color: rgb(10, 50, 150);
+    border: 5px;
+    height: 50px;
+    padding: 0 20px;
+    margin: 20px;
+    border-radius: 15px;
+}
+
+#to-do button:hover{
+    background-color: rgba(10, 10, 10, 0.45);
+    border-radius: 25px;
+    cursor: pointer;
+    color: azure;
+}
